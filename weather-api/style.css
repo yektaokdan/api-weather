@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Nunito",sans-serif;
+    
+    margin:15px 15px 15px 15px;
+    
+}
+
+p{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #e2e2e2;
+    position: relative;
+    top: 20px;
+}
+
+.input{
+    text-align: center;
+    margin: 100px 0;
+    position: relative;
+    top: 500px;
+}
+
+input[type="text"]{
+    height: 50px;
+    width: 600px;
+    background: #e7e7e7;
+    font-family: "Nunito",sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: 0.2px solid black;
+    border-radius: 7px;
+    padding: 10px 10px;
+}
+
+input[type="submit"]{
+    height: 50px;
+    width: 100px;
+    background: #e7e7e7;
+    font-family: "Nunito",sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: 0.2px solid black;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color:#aaaaaa ;
+    transition: all 0.3s ease 0s;
+}
+
+.display{
+    text-align: center;
+}
+
+header{
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color: #f0f0f0;
+    text-align: center;
+    height: 100px;
+    border: 0.5px solid black;
+    box-shadow: 2px 2px;
+    border-radius: 15px;
+    font-family: Roboto,sans-serif;
+}
+
+body,anadiv {
+    background: linear-gradient(-45deg, #00fff2, #0099ff, #8be0ff, #5effd9,#0affde);
+    background-size: 500% 700%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+

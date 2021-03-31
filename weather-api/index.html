@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body id="container">
+    <div class="anadiv">
+    <header id="header">
+        <p>• • Anlık Hava Durumu • •</p>
+    </header>
+    <div class="container">
+    <div class="input">
+        <input type="text" id="inputValue" class="inputValue" placeholder="Ülke, şehir veya semt adı giriniz..">
+        <input type="submit" value="Ara" class="button" onclick="displayKaldir()">
+    </div>
+
+    <div class="display">
+        <h1 class="name"></h1>
+        <p class="desc" id="ifHavaDurumu"></p>
+        <p class="temp"></p>
+    </div>
+    <script src="app.js"></script>
+    <script src="havaDurumudisplay.js"></script>
+    
+</div>
+</div>
+</body>
+</html>
